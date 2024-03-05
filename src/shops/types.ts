@@ -9,6 +9,7 @@ export type Shop = {
   };
 };
 
-/* export type ShopsState = {
-  
-}; */
+export type ShopsState = {
+  shops: Shop[];
+  loadShops: (shops: Shop[]) => void;
+};
